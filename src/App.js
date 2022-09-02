@@ -1,19 +1,23 @@
 
 import './App.css';
-import CounterComponent from './Counter';
-import {Hello,  HelloIm} from './Hello';
-import ClockComponent from './Clock';
+// import CounterComponent from './Counter';
+// import {Hello,  HelloIm} from './Hello';
+// import ClockComponent from './Clock';
+
+import StateMangeCoponent from './StateTutorials';
 
 function App() {
   return (
     <div className="App">
-      <ClockComponent />
+      {/* <ClockComponent />
       <br />
         <CounterComponent />
         <br />
         <Hello/>
         <hr />
-        <HelloIm />
+        <HelloIm /> */}
+
+        <StateMangeCoponent />
 
     </div>
   );
