@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-const StateMangeCoponent = ()=>{
+const StateMangeCoponent = ({text, updateTxt})=>{
     // State mantain 
-    let [text, setText] = useState('Rohit');
+    
 
     let [no, setNo] = useState('hello');
     
@@ -10,8 +10,7 @@ const StateMangeCoponent = ()=>{
     // setate update here 
     const handleChange = (e)=>{
         // console.log(e.target.value);
-       return  setText(text =  e.target.value)
-       
+       return  updateTxt(e.target.value)
     }
 
     // action button pick the curent state 
